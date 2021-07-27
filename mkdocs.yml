@@ -1,0 +1,22 @@
+site_name: Tiere
+dev_addr: '127.0.0.1:8001'
+
+theme:
+  name: material
+  features:
+    - toc.integrate
+extra_css: [/css/base.css]
+
+markdown_extensions:
+  - toc:
+      title: "Inhalt"
+      separator: "_"
+      baselevel: 1
+      permalink: false # default
+  - attr_list
+
+nav:
+  - "Katzen": "content/Tiere/Katzen/Katzen.md"
+  - "Hunde": "content/Tiere/Hunde/Hunde.md"
+  - "Vögel": "content/Tiere/Vögel/Vögel.md"
+  - "Insekten": "content/Tiere/Insekten/Insekten.md"
