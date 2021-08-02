@@ -14,3 +14,6 @@ Zu zoologischen Aspekten der Tiere → siehe Hauptartikel: Metazoa
 Der Mensch wird in der Biologie zu den Tieren gezählt. Bestimmte nicht-naturwissenschaftliche Disziplinen – 
 darunter Rechtswissenschaft und Theologie – rechnen ihn nicht zu ihnen. Das Verhältnis zwischen Tier und Mensch ist 
 Forschungsgegenstand der Tierphilosophie.
+
+
+![test](Logistikpuffer.drawio.png)
