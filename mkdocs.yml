@@ -5,7 +5,7 @@ theme:
   name: material
   features:
     - toc.integrate
-extra_css: [/main/css/base.css]
+extra_css: [/Entwicklung/css/base.css]
 
 markdown_extensions:
   - toc:
