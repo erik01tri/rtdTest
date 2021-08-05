@@ -1,4 +1,4 @@
-#Tiere Wiki
+#Tiere
 Tiere sind vielzellige Lebensformen, die eine Form heterotrophen Stoff- und Energiewechsels betreiben, somit in der 
 Ernährung auf Körpersubstanz oder Stoffwechselprodukte anderer Organismen angewiesen sind, und keine Pilze sind.
 
