@@ -5,4 +5,4 @@ unter anderem Flügel, eine aus Federn bestehende Körperbedeckung und einen Sch
 Kontinenten. Bislang sind über 10.758 existente rezente Vogelarten bekannt, zusätzlich sind 158 Arten in historischer 
 Zeit ausgestorben.[1] Bei Anwendung des moderneren, phylogenetischen Artkonzepts kommt man auf etwa 18.000 
 (15.845 bis 20.470) Vogelarten, und auch genetische Daten deuten auf eine in etwa doppelt so hohe Anzahl von Vogelarten 
-hin.[2] Die Wissenschaft von den Vögeln ist die Vogelkunde (Ornithologie).gggggggggggggggggg
+hin.[2] Die Wissenschaft von den Vögeln ist die Vogelkunde (Ornithologie).

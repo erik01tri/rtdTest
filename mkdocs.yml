@@ -5,7 +5,7 @@ theme:
   name: material
   features:
     - toc.integrate
-extra_css: [/Entwicklung/css/base.css]
+extra_css: [/Produktion/css/base.css]
 
 markdown_extensions:
   - toc:
@@ -16,10 +16,9 @@ markdown_extensions:
   - attr_list
 
 nav:
-  - "Katzen": "content/Tiere/Katzen/Katzen.md"
-  - "Hunde": "content/Tiere/Hunde/Hunde.md"
-  - "Vogel": "content/Tiere/Vogel/Vogel.md"
-  - "Insekten": "content/Tiere/Insekten/Insekten.md"
+  - "Katzen": "content/Tiere/1_Katzen/Katzen.md"
+  - "Hunde": "content/Tiere/2_Hunde/Hunde.md"
+  - "Vogel": "content/Tiere/3_Vogel/Vogel.md"
 
 extra:
   version:
