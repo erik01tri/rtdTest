@@ -21,6 +21,7 @@ nav:
   - "Vogel": "content/Tiere/3_Vogel/Vogel.md"
   - "Fische": "content/Tiere/4_Fische/Fische.md"
   - "Schlangen": "content/Tiere/5_Schlangen/Schlangen.md"
+
 extra:
   version:
     provider: mike
