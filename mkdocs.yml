@@ -15,6 +15,10 @@ markdown_extensions:
       permalink: false # default
   - attr_list
 
+extra:
+  version:
+    provider: mike
+
 nav:
   - "Katzen": "content/Tiere/1_Katzen/Katzen.md"
   - "Hunde": "content/Tiere/2_Hunde/Hunde.md"
