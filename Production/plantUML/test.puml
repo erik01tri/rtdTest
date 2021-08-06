@@ -1,0 +1,43 @@
+@startuml
+skinparam component {
+  BorderColor<<Apache>> #FF6655
+  BorderColor black
+  ArrowColor #000000
+}
+
+component "Core: Bosch" {
+    component "Faktura"
+    component "Debit"
+    component "Logistik"
+    }
+component "Ideefix: Bon Prix" {
+    component "SAP PI"
+    }
+
+component "Logistikpuffer KR2"{
+     component "LP Web-Service"
+     component "WS-Client"
+}
+database "RDNetto 1"
+
+[WS-Client] --> [KR2]
+[KR2] --> [WS-Client]
+[WS-Client] -->[SAP PI]
+[SAP PI] -->[LP Web-Service]
+[Logistik]-->[Logistikpuffer KR2 SHF]
+[Logistikpuffer KR2 SHF] --> [KR2 SHF]
+[KR2 SHF] --> [Logistikpuffer KR2 SHF]
+[Logistik]-->[Logistikpuffer 1]
+[Logistikpuffer 1] -left->[RDNetto 1]
+[RDNetto 1] -down-> [WMSx]
+[Logistikpuffer 1] -down-> [FSA]
+[FSA] -up->[Logistikpuffer 1]
+[Logistik]-->[Logistikpuffer 2]
+[Logistik]-->[Logistikpuffer 3]
+[Logistik]-->[Logistikpuffer 4]
+[Logistik]-->[Logistikpuffer 5]
+[Logistik]-->[Logistikpuffer 6]
+[Logistikpuffer 6] --> [RDnetto 6]
+[Logistikpuffer 6] --> [Logistik]
+
+@enduml
